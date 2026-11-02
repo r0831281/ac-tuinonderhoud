@@ -1,0 +1,10 @@
+baseURL = 'https://ac-tuinonderhoud.nl/'
+languageCode = 'nl-nl'
+title = 'AC Tuinonderhoud'
+disableKinds = ['taxonomy', 'term']
+
+[params]
+companyName = 'AC Tuinonderhoud'
+companyTagline = 'Vakkundig tuinonderhoud en aanleg'
+phone = '+31 6 1234 5678'
+email = 'info@ac-tuinonderhoud.nl'
