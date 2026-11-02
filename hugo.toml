@@ -1,5 +1,5 @@
-baseURL = 'https://ac-tuinonderhoud.nl/'
-languageCode = 'nl-nl'
+baseURL = 'https://ac-tuinonderhoud.be/'
+languageCode = 'nl-be'
 title = 'AC Tuinonderhoud'
 disableKinds = ['taxonomy', 'term']
 

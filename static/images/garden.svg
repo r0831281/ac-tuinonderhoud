@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 660">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#d8dfc7"/><stop offset="1" stop-color="#eef0da"/></linearGradient>
+ <linearGradient id="ground" x2="0.3" y2="1"><stop stop-color="#a9b28a"/><stop offset="1" stop-color="#788e66"/></linearGradient>
+ <pattern id="grain" width="17" height="17" patternUnits="userSpaceOnUse"><circle cx="3" cy="7" r=".65" fill="#fff" opacity=".16"/><circle cx="12" cy="14" r=".5" fill="#233e2e" opacity=".1"/></pattern>
+ <g id="leaf"><path d="M0 0C-25-38-15-66 0-82 21-54 22-22 0 0Z" fill="currentColor"/><path d="M0-4V-65" stroke="#dee4c4" stroke-opacity=".35" stroke-width="1"/></g>
+ <g id="grass" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M0 0C-2-52-17-91-35-115M0 0C11-64 15-116 7-151M0 0C26-50 32-99 30-121M0 0C-18-46-30-66-49-79M0 0C24-33 40-58 51-88" stroke-width="3"/><path d="M0 0C-4-70-5-104-19-136M0 0C21-45 42-75 60-91" stroke-width="1.5"/></g>
+</defs>
+<path fill="url(#sky)" d="M0 0h600v660H0z"/>
+<circle cx="420" cy="133" r="52" fill="#e6c88d"/>
+<path d="M0 320C100 267 178 298 273 272c127-35 186-17 327 27v361H0Z" fill="#b8c2a0"/>
+<g stroke="#7f956c" stroke-width="1" opacity=".25"><path d="M0 285h600M0 306h600M0 328h600M0 350h600M40 266v116M119 274v101M198 274v101M277 270v105M356 263v112M435 266v109M514 276v99M593 286v89"/></g>
+<g fill="#597b53"><path d="M0 384v-90c0-56 62-68 76-15 9-66 89-62 94 1 24-50 82-26 75 21 21-43 78-23 76 21v62Z"/><path d="M359 384v-67c0-43 40-66 66-31-4-70 79-83 93-17 14-38 78-35 82 23v92Z"/></g>
+<path d="M0 382c115-16 196-18 306-14 126 5 183 19 294 1v291H0Z" fill="url(#ground)"/>
+<path d="M315 372c-51 24-39 51 6 75 51 28 29 52-34 77-65 26-109 69-100 136h203c-40-58-40-89-2-121 55-48 58-74-3-102-49-22-79-41-48-65Z" fill="#e5dcc4"/>
+<path d="M325 374c-42 28-15 51 25 71 44 23 43 44-9 72-72 39-104 74-100 143" fill="none" stroke="#d2c8ad" stroke-width="2"/>
+<g fill="#315f43"><ellipse cx="74" cy="415" rx="95" ry="59"/><ellipse cx="170" cy="408" rx="60" ry="39"/><ellipse cx="539" cy="421" rx="95" ry="53"/></g>
+<g fill="#446e4c"><ellipse cx="52" cy="388" rx="63" ry="44"/><ellipse cx="149" cy="388" rx="59" ry="37"/><ellipse cx="547" cy="395" rx="64" ry="48"/></g>
+<g color="#ddd3a0"><use href="#grass" transform="translate(198 439) scale(.65)"/><use href="#grass" transform="translate(490 455) scale(.8)"/></g>
+<g stroke="#d0be86" stroke-width="3" stroke-linecap="round"><path d="m189 355-3-25m12 17 1-26m-20 41-8-22M497 355l5-29m-20 33-1-22m28 28 12-24"/></g>
+<g fill="#234c38"><ellipse cx="-4" cy="559" rx="120" ry="104"/><ellipse cx="92" cy="577" rx="75" ry="76"/><ellipse cx="596" cy="576" rx="124" ry="103"/></g>
+<g color="#72935f"><use href="#leaf" transform="translate(99 598) rotate(-48) scale(1.5)"/><use href="#leaf" transform="translate(96 601) rotate(-13) scale(1.3)"/><use href="#leaf" transform="translate(95 602) rotate(27) scale(1.5)"/><use href="#leaf" transform="translate(96 602) rotate(63) scale(1.1)"/></g>
+<g color="#3c694c"><use href="#leaf" transform="translate(18 660) rotate(-17) scale(1.7)"/><use href="#leaf" transform="translate(17 660) rotate(24) scale(1.5)"/><use href="#leaf" transform="translate(17 660) rotate(60) scale(1.5)"/></g>
+<ellipse cx="452" cy="591" rx="53" ry="11" fill="#546c4a" opacity=".3"/>
+<path d="m413 522 12 65q25 18 52 0l13-65Z" fill="#b77852"/><path d="m413 522 12 65q11 9 24 10l-5-75Z" fill="#a56547"/>
+<ellipse cx="451" cy="523" rx="39" ry="10" fill="#d1966d"/><ellipse cx="451" cy="522" rx="32" ry="6" fill="#675f40"/>
+<g color="#436c47"><use href="#leaf" transform="translate(450 520) rotate(-55) scale(.7)"/><use href="#leaf" transform="translate(450 520) rotate(-19) scale(.9)"/><use href="#leaf" transform="translate(451 520) rotate(26) scale(.8)"/><use href="#leaf" transform="translate(451 520) rotate(65) scale(.65)"/></g>
+<g color="#b9c197"><use href="#grass" transform="translate(556 660) scale(1.25)"/><use href="#grass" transform="translate(592 678) scale(.95)"/></g>
+<path fill="url(#grain)" d="M0 0h600v660H0z"/>
+</svg>
