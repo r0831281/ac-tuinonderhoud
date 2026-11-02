@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Site.Title }}</title>
+    <meta name="description" content="{{ .Description }}">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <h1>{{ .Site.Params.companyName }}</h1>
+        <p>{{ .Site.Params.companyTagline }}</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section>
+        <h2>Diensten</h2>
+        <ul>
+          <li>Periodiek onderhoud van tuinen</li>
+          <li>Snoeiwerk en seizoensklaar maken</li>
+          <li>Aanleg van gazons, borders en beplanting</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Waarom AC Tuinonderhoud?</h2>
+        <p>Betrouwbaar vakwerk met oog voor detail, afgestemd op uw tuin en wensen.</p>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <p>Telefoon: <a href="tel:{{ replace .Site.Params.phone " " "" }}">{{ .Site.Params.phone }}</a></p>
+        <p>E-mail: <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
+      </section>
+    </main>
+  </body>
+</html>
