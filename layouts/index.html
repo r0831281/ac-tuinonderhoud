@@ -7,7 +7,7 @@
   <title>{{ .Site.Title }} · Met aandacht voor uw tuin</title>
   <meta name="description" content="{{ .Description }}">
   <link rel="canonical" href="{{ .Permalink }}">
-  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}?v={{ readFile "static/css/style.css" | md5 }}">
   <link rel="icon" href="{{ "images/leaf.svg" | relURL }}" type="image/svg+xml">
 </head>
 <body>
@@ -26,7 +26,7 @@
         <p class="hero-note"><span aria-hidden="true">⌁</span> Onderhoud <b>·</b> Snoeiwerk <b>·</b> Tuinaanleg</p>
       </div>
       <figure class="garden-figure">
-        <img src="{{ "images/garden.svg" | relURL }}" alt="Botanische illustratie van een groene tuin met een slingerend pad, siergrassen en een terracotta bloempot" width="600" height="660" fetchpriority="high">
+        <img src="{{ "images/garden.svg" | relURL }}?v={{ readFile "static/images/garden.svg" | md5 }}" alt="Botanische illustratie van een groene tuin met een slingerend pad, siergrassen en een terracotta bloempot" width="600" height="660" fetchpriority="high">
         <figcaption><span class="caption-icon" aria-hidden="true">✳</span><span>Een plek om<br><strong>buiten te genieten.</strong></span></figcaption>
         <span class="figure-label" aria-hidden="true">Groen doet goed.</span>
       </figure>
